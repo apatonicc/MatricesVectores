@@ -1,0 +1,20 @@
+
+public class Ejercicio_3 {
+
+	public static void main(String[] args) {
+		int TAMAÑO = 100;
+		int[][][][] cuenta = new int[TAMAÑO][TAMAÑO][TAMAÑO][TAMAÑO-1];
+		
+		for (int i=0; i < cuenta.length; ++i) {
+			for (int j=0; j < cuenta[i].length; ++j) {
+				for(int k=0; k < cuenta[i][j].length; ++k) {
+					for(int m=0; m < cuenta[i][j][k].length; ++m) {
+						cuenta[i][j][k][m]=1;
+					}
+				}
+			}
+		}
+
+	}
+
+}

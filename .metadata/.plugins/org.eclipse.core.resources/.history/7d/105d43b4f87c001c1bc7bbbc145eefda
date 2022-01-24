@@ -1,0 +1,11 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		double [][] datos = new double[50][50];
+		double valor = getMax(datos);
+		System.out.println(valor);
+
+	}
+
+}

@@ -1,0 +1,31 @@
+/**
+ * Usando la matriz anterior, realiza las siguientes cuestiones:
+a) Asigna 27.3 al componente de la fila 13 y la comuna 7
+b) ¿Sobre qué rango de valores deberá iterar un bucle for exterior para sumar los valores
+de cada fila?
+	
+c) ¿Sobre qué rango de valores deberá iterar un bucle for exterior para sumar los valores
+de cada columna?
+d) Escribe un fragmento de código para inicializar los elementos de la matriz a 1.
+
+e) Escribe un fragmento de código que imprima los contenidos de la matriz, una fila por
+cada línea de salida.
+ * @author alu
+ *
+ */
+public class Ejercicio_2 {
+
+	public static void main(String[] args) {
+		float [][] plan = new float [30][10];
+		
+		//plan[13][7]= (float) 27.3;
+		for (int i = 0; i < plan.length; ++i) {
+		      for(int j = 0; j < plan[i].length; ++j) {
+		        System.out.println(plan[i][j]);
+		      }
+		    }
+		}
+
+	}
+
+}
