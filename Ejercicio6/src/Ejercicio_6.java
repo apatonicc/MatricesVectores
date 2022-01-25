@@ -40,7 +40,7 @@ class Ejercicio_6 {
 		}
 		return ventasMes;
 	}
-	
+	//
 	public static int getSalesByShop(int[][][] datos,int tienda) {
 		int ventasTienda = 0;
 		for(int i = 0; i < 100; ++i) {
