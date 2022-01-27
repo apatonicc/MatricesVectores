@@ -14,17 +14,19 @@ public class Ej3_Victores {
 		int posMin=0;
 		int valorMax = victor[0];
 		int valorMin = victor[0];
-		for(int i=0; i<10; ++i) {
+		//Bucles para encontrar menor y mayor
+		for(int i=0; i<victor.length; ++i) {
 			if (victor[i] > valorMax) {
 				valorMax = victor[i];
 			}
 		}
-		for(int i=0; i<10; ++i) {
+		for(int i=0; i<victor.length; ++i) {
 			if (victor[i] < valorMin) {
 				valorMin = victor[i];
 			}
 				
 		}
+		//Bucles para encontrar la posicion
 		while (valorMax != victor[j]) {
 			posMax++;
 			j++;
