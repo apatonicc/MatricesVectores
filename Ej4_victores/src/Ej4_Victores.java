@@ -24,30 +24,22 @@ public class Ej4_Victores {
 			vector1[i]=rand;
 			System.out.print(" "+vector1[i]);
 		}
-
-
 		System.out.println(" ");
 		for(int i=0; i<vector2.length;++i) {
 			int rand = (int)(Math.random()*5);
 			vector2[i]=rand;
 			System.out.print(" "+vector2[i]);
 		}
-		
 		for(int i=0; i<vector1.length;++i) {
 			contVeces=0;
 			contElementos++;
-			
 			for(int j=0; j<vector2.length;++j) {
 				if(vector1[i]==vector2[j]) {
 					contVeces++;
 					contContVeces=contVeces;
 				}
-				
-				
 			}
 			System.out.println("Elemento "+contElementos+"("+vector1[i]+")"+":"+" "+contContVeces+" veces");
 		}
-
-
 	}
 }
